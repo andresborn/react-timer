@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.timer {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.timer-box {
+  display: flex;
+  width: 18vh;
+  height: 18vh;
+  background-color: #282c34;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 5vh;
+  font-weight: bolder;
+}
+
+.button {
+  width: 14vh;
+  height: 8vh;
+  background-color: #282c34;
+  color: white;
+  font-size: 2vh;
+  font-weight: bold;
+  border-radius: 5px;
 }
