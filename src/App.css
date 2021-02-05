@@ -69,3 +69,7 @@
   font-weight: bold;
   border-radius: 5px;
 }
+
+button:active {
+  border: none;
+}
